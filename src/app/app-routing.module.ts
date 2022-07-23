@@ -8,11 +8,12 @@ import { ProfilepageComponent } from "./pages/screens/profilepage/profilepage.co
 import { RegisterpageComponent } from "./pages/screens/registerpage/registerpage.component";
 import { LandingpageComponent } from "./pages/screens/landingpage/landingpage.component";
 import { AuthGuard } from "src/services/guards/auth.guard";
+import { LoginpageComponent } from "./pages/screens/loginpage/loginpage.component";
 
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "register",
+    redirectTo: "login",
     pathMatch: "full",
   },
   { path: "design-kit", 
@@ -25,6 +26,7 @@ const routes: Routes = [
     //canActivate: [AuthGuard],
   },
   { path: "register", component: RegisterpageComponent },
+  { path: "login", component: LoginpageComponent },
   {
     path: "landing",
     component: LandingpageComponent,

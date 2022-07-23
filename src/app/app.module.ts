@@ -25,6 +25,7 @@ import { RegisterpageComponent } from "./pages/screens/registerpage/registerpage
 import { LandingpageComponent } from "./pages/screens/landingpage/landingpage.component";
 import { FooterComponent } from './pages/layout/footer/footer.component';
 import { AuthGuard } from "src/services/guards/auth.guard";
+import { LoginpageComponent } from './pages/screens/loginpage/loginpage.component';
 
 @NgModule({
   declarations: [

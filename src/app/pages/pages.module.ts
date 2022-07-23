@@ -23,6 +23,7 @@ import { RegisterpageComponent } from "./screens/registerpage/registerpage.compo
 import { LandingpageComponent } from "./screens/landingpage/landingpage.component";
 import { FooterComponent } from "./layout/footer/footer.component";
 import { HeaderComponent } from "./layout/header/header.component";
+import { LoginpageComponent } from "./screens/loginpage/loginpage.component";
 
 @NgModule({
   imports: [
@@ -49,7 +50,8 @@ import { HeaderComponent } from "./layout/header/header.component";
     RegisterpageComponent,
     LandingpageComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginpageComponent
   ],
   exports: [
     IndexComponent,
@@ -57,7 +59,8 @@ import { HeaderComponent } from "./layout/header/header.component";
     RegisterpageComponent,
     LandingpageComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginpageComponent
   ],
   providers: []
 })
